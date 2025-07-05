@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<tile></title>
+<style>
+body{
+background-color:#fffacd;
+font-family: Arial, sans-serif;
+margin: 0;
+padding:20px;
+}
+
+h1{
+text-align:center;
+color:green;
+}
+
+ul{list-style-none;
+display:flex;
+flex-wrap: wrap;
+justify-content:center;
+gap:20px;
+padding:0;
+}
+
+li{
+background-color:white;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0,1);
+width: 250px;
+padding: 20px;
+text-align: center;
+transition: transform 0,2s ease;
+}
+
+li:hover{
+transform: scale(1.03);
+}
+
+li img{
+width: 70%;
+border-radius: 5px;
+}
+
+li span{
+display: block;
+margin-top: 10px;
+font-size: 20px;
+}
+
+.order-button{
+margin-top: 10px;
+background-color: #28a745;
+color:white;
+border:none;
+padding: 10px 15px;
+border-radius:8px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.order-button:hover{
+background-color:#218838;
+}
+
+back-link{
+text-align: center;
+margin-top: 30px;
+}
+
+back-link a {
+color: #006400;
+text-decoration: none;
+font-weight: bold;
+}
+
+back-link a:hover{
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center;color:green"><b>Our
+ Delicious Menu</b></h1>
+
+<ul style="list-style-type:none;text-align:center; padding:0;">
+
+<li>
+<img src="burger.jpg" alt="Burger" width="150">
+<span><strong>Burger</strong> - $30</span><button class="order-button">
+Order Now</button>
+</li>
+
+
+<li>
+<img src="pizza.jpg" alt="Pizza" width="230">
+<span><strong>Pizza</strong> - $20</span><button class="order-button">
+Order Now</button>
+</li>
+
+
+<li>
+<img src="fries.jpg" alt="Fries" width="150">
+<span><strong>Fries</strong>- $10</span><button class="order-button">
+Order Now</button>
+</li>
+
+</ul>
+
+<div class="back-link">
+<p style="text-align:cnter;">
+   <a href="food.html"> <-- Back to Home</a>
+</p>
+</div>
+
+</body>
+</html>
